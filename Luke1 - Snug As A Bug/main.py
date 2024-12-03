@@ -24,7 +24,7 @@ blanket = [
     "nxxxn"
 ]
 
-with open("Luke1/joe.txt") as file:
+with open("Luke1/joe.txt", "r") as file:
     joe = file.read().splitlines()
 
 koselighetsgrader = []
