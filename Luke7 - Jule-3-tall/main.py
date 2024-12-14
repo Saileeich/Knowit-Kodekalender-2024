@@ -1,4 +1,8 @@
 import math
+import sys 
+ 
+# Set the stack size to 10000 
+sys.setrecursionlimit(10000)
 
 def er_lystig(tall: int) -> bool:
     if tall == 1 or tall == 0:
