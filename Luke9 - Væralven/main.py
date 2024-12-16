@@ -42,5 +42,5 @@ tekst = ""
 with open("Luke9 - Væralven/tall.txt", "r", encoding="utf-8") as f:
     tekst = f.read()
 
-print(tekst_til_tall(tekst))
+print(tekst_til_tall(tekst)/6)
 
